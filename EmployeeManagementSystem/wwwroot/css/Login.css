@@ -1,0 +1,81 @@
+﻿body {
+    font-size: .9rem;
+    font-weight: 400;
+    text-align: left;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: #E8E8E8;
+    width: 70%;
+    height: 220%;
+}
+
+form .row {
+    margin-top:40px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 50px;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin-left: 30px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+label{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.card-header {
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    margin-bottom: 50px;
+}
+
+.container {
+    width: 80%;
+    padding: 16px;
+    margin: auto;
+}
+
+input{
+    padding-left: 15px;
+    max-width : 500px;
+    margin: auto;
+}
+
+button {
+    background-color: #20c997;
+    color: white;
+    border: thick;
+    cursor: pointer;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.buttonContainer {
+    margin-top: 20px;
+    padding-left: 80px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+html {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F5;
+}
