@@ -4,4 +4,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Remove="wwwroot\HTML\Registration.html~RF2a5b384.TMP" />
+  </ItemGroup>
+
 </Project>
